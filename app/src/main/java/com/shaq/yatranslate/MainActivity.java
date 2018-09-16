@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 String key = API_KEY;
                 String text = inputText.getText().toString().trim();
                 String lang = "en-ru";
-                sendPost("trnsl.1.1.20180912T105410Z.9c59e0e8d5a540cb.8706f86040790cb88fe87053cc41d7781da13c57","hello","en-ru");
+                sendPost(key,text,lang);
             }
         });
 
